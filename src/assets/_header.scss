@@ -1,0 +1,20 @@
+.header{
+    height: 70px;
+    background-color: $white;
+    padding-left: 110px;
+    font-family: 'Roboto', sans-serif; 
+        padding-top: 21px;
+        color: #a5abb7;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 500;
+        vertical-align: text-bottom;
+        img{
+            margin-right: 7px;
+        }
+    .icons-right{
+        img{
+            padding-right:27px
+        }
+    }
+}

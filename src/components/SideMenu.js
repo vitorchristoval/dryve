@@ -28,9 +28,11 @@ export class SideMenu extends Component {
                 onMouseOver={this.expandMenu}
                 onMouseLeave={this.takeMenu}>
                 <div className='user '>
-                    <div className='img-user'></div>
+                    <div className='img-user'>
+                        <img src='/img/user.png'/>
+                    </div>
                     <div className='data-user'>
-                        <span>Vinicius Malara</span><br/>
+                        <span>Vitor Christoval</span><br/>
                         <a href='#'><img src='/img/icons-menu/ic-power-settings-new.svg'/>SAIR</a>
                     </div>
                 </div>

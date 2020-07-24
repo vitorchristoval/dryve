@@ -1,86 +1,10 @@
 @import 'variables';
 @import 'buttons';
-
+@import 'menu';
+@import 'header';
+//font-family: 'Roboto', sans-serif;   -- font header
 body {
     background: $bg-color;
     font-weight: 400;
     font-size: .9rem;
-}
-.menu{
-    position: absolute;
-    height: 100%;
-    padding:15px;
-    width: 80px;
-    overflow: hidden;
-    top: -1px;
-    bottom:0px;
-    background-color:$white;
-    border: 1px solid $grey;
-    transition: 0.5s;
-    .user{
-        width: 80px;
-        .data-user{
-            font-size: 14px;
-            width: 150px;
-            margin-left:68px;
-            float: left;
-            margin-top: -40px;
-            letter-spacing: 1.5px;
-            a{
-                font-size: 10px;
-                color: rgba(0, 0, 0, 0.87);
-                opacity: 0.5;
-                line-height: 10px;
-            }
-        }
-        .img-user{
-            margin-top:45px;
-            width: 50px;
-            height: 50px;
-            background-color: $grey;
-            border-radius: 50%;
-            border: 2px solid $primary-color
-        }
-    }
-    
-    .menu-list{
-        clear: both; 
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 16px;
-        letter-spacing: 0.1px;
-        margin-top: 35px;
-        cursor: pointer;
-        ul{
-            padding: 0px;
-            margin: 0;
-           
-        }
-        li{
-            list-style: none;
-            width: 210px;
-            margin-top: 15px;
-            padding: 13px;
-            &:hover{
-                background-color:$ice-blue;
-                color: $primary-color;
-            }
-            img{
-                margin-right: 25px;
-            }
-        }
-      
-    }
-}
-.hover{
-    transition: 0.5s;
-    width: 240px;
-    .user{
-        width: 160px;
-    }
-
-    .active{
-        background-color:$ice-blue;
-        color: $primary-color;
-    }
 }
