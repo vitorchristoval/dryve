@@ -1,0 +1,41 @@
+.btn {
+  padding:.55rem 1rem;
+  font-size: .875rem;
+  transition: all .5s ease;
+
+  //Button small style
+  &.btn-sm {
+    font-size: .675rem;
+    i {
+      font-size: 1rem;
+    }
+  }
+
+  //Button large style
+  &.btn-lg {
+    font-size: 1.15rem;
+  }
+
+  // Remove bootstrap focus
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  // Round Style
+  &.round {
+    border-radius:20px;
+  }
+
+  // Shadow Style
+  &.shadow {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)!important;
+    &:hover {
+      box-shadow: 0 4px 12px 0 rgba(0,0,0,.2)!important;
+    }
+  }
+
+  
+}
+
+
