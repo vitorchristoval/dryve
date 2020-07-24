@@ -1,6 +1,5 @@
 .menu{
-    position: absolute;
-    height: 100%;
+    position: fixed;
     padding:15px;
     width: 80px;
     overflow: hidden;
@@ -59,11 +58,20 @@
             margin: 0;
            
         }
+        .disabled{
+            color: #C1C1C1;
+            cursor:not-allowed;
+            &:hover{
+                background-color:#fff;
+                color: #C1C1C1;
+            }
+        }
         li{
             list-style: none;
             width: 210px;
             margin-top: 15px;
-            padding: 13px;
+            padding: 13px; 
+            
             &:hover{
                 background-color:$ice-blue;
                 color: $primary-color;

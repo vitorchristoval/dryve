@@ -2,7 +2,7 @@
   padding:.55rem 1rem;
   font-size: .875rem;
   transition: all .5s ease;
-
+ 
   //Button small style
   &.btn-sm {
     font-size: .675rem;
@@ -37,5 +37,23 @@
 
   
 }
+.btn-secondary{
+  color: $white;
+  background-color: $secondary-color;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  align-content: center;
 
+}
+
+
+.btn-terciary{
+  color: $secondary-color;
+  background-color: #fff !important;
+  border:1px solid rgba(0, 0, 0, 0.12);
+  font-weight: 500;
+  text-transform: uppercase;
+}
 

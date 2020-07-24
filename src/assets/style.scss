@@ -2,9 +2,55 @@
 @import 'buttons';
 @import 'menu';
 @import 'header';
+@import 'dashboard';
 //font-family: 'Roboto', sans-serif;   -- font header
 body {
     background: $bg-color;
     font-weight: 400;
     font-size: .9rem;
+    font-family: 'Inter', sans-serif;
+}
+.container-fluid{
+    margin-left: 6rem;
+    width: 90%;
+}
+.footer{
+    color: #6b6c6f;
+    border-top: 1px solid #dfe3e8 ;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-left: 6rem;
+    font-size: 12px;
+    line-height: 18px;
+    span{
+        color: #616161;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+.rdt_TableRow{
+    overflow: visible !important;
+    border:none !important;
+    min-height: 64px !important;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.08), 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.rdt_TableHeader{
+    min-height: 0px !important;
+  display:none !important;
+}
+.rdt_TableHeadRow{
+ 
+    >.rdt_TableCol{
+        color: rgba(0, 0, 0, 0.37) !important; 
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+   
+}
+.rdt_TableCell div:first-child{
+    overflow: visible !important;
+    word-wrap: break-word !important;
 }

@@ -13,19 +13,13 @@ describe('Tests for Menu component', () => {
             () => getByTestId('menu')
         )
 
-        fireEvent.mouseOver(
-            menuNode
-          
-        )
-
+        fireEvent.mouseOver(menuNode)
+        
         //verifica se o menu recebeu a classe "hover" ao passar o mouse em cima.
         expect(menuNode.classList.contains('hover')).toBe(true)
 
+        fireEvent.mouseLeave(menuNode)
 
-        fireEvent.mouseLeave(
-            menuNode
-          
-        )
         //verifica se o menu retirou a classe "hover" ao passar o mouse em cima.
         expect(menuNode.classList.contains('hover')).toBe(false)
         //     const newTask = 'testing'
