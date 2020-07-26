@@ -30,7 +30,6 @@ import DataTable, { createTheme } from 'react-data-table-component';
 class List extends Component {
     constructor(props) {
         super(props);
-        this.handlePageChange = this.handlePageChange.bind(this)
 
         this.state = {
 
@@ -52,7 +51,6 @@ class List extends Component {
 
     }
     async componentWillReceiveProps() {
-        console.log(this.props)
         const { perPage } = this.state;
 
         this.setState({ loading: true });
@@ -61,30 +59,9 @@ class List extends Component {
         this.setState({ loading: false, totalRows: this.props.totalRows })
         this.forceUpdate();
 
-        console.log(this.state.data)
     }
 
-    handlePageChange = async page => {
-        const { perPage } = this.state;
-        console.log(page)
-        this.setState({ loading: true });
-        await this.props.handlePageChange(page)
-        this.setState({ loading: false });
-    }
 
-    handlePerRowsChange = async (perPage, page) => {
-        // this.setState({ loading: true });
-
-        // const response = await axios.get(
-        //     `https://reqres.in/api/users?page=${page}&per_page=${perPage}&delay=1`,
-        // );
-
-        // this.setState({
-        //     loading: false,
-        //     data: response.data.data,
-        //     perPage,
-        // });
-    }
 
     render() {
         const { loading, data, totalRows } = this.state;

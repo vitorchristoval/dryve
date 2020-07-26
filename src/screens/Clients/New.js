@@ -45,8 +45,8 @@ export class New extends Component {
                                             Salvar
                         </button>
                                     </div>
-                                    <div className='col'>
-                                       <a href='/clients'>Cancelar</a>
+                                    <div className='col pt-2'>
+                                       <a href='/clients' className='btn-link-secondary '>Cancelar</a>
                                     </div>
                                 </div>
 

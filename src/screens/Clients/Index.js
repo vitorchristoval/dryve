@@ -52,75 +52,75 @@ export class Index extends Component {
                     id: '1'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
-                    status: 'lead',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    name: 'Juliana Martins Silva',
+                    status: 'client',
+                    telefone: '(16) 99819-3112',
+                    email: 'jumartins.silva@hotmail.com',
                     id: '2'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
-                    status: 'lead',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    name: 'Luís Rocha',
+                    status: 'client',
+                    telefone: '(16) 99776-9290',
+                    email: 'luisrocha@yahoo.com.br',
                     id: '3'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
-                    status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    name: 'Adilson Vieira Antunes',
+                    status: 'lead',
+                    telefone: '(16) 99664-0187',
+                    email: 'a.vieira@uol.com.br',
                     id: '4'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
-                    status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    name: 'Felipe Alves',
+                    status: 'lead',
+                    telefone: '(16) 99660-7765',
+                    email: 'felipe_alves@hotmail.com',
                     id: '5'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
+                    name: 'Roberta Vianna',
                     status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    telefone: '(16) 99765-2233',
+                    email: 'robertavianna@gmail.com',
                     id: '6'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
+                    name: 'Silvia Pereira',
                     status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    telefone: '(16) 99642-8721',
+                    email: 'silvia.pereira@outlook.com',
                     id: '7'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
+                    name: 'Eduardo Oliveira',
                     status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    telefone: '(16) 99872-3254',
+                    email: 'eduoliveira@hotmail.com',
                     id: '8'
                 },
                 {
-                    name: 'Paulo Henrique Mattos',
+                    name: 'Maria Antônia Silva Santos',
                     status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    telefone: '(16) 99443-9986',
+                    email: 'maria.ss@uol.com.br',
                     id: '9'
                 }
                 ,
                 {
-                    name: 'Paulo Henrique Mattos',
+                    name: 'Rodrigo Ribeiro Costa',
                     status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    telefone: '(16) 99876-0012',
+                    email: 'rrc@gmail.com',
                     id: '10'
                 }
                 ,
                 {
-                    name: 'Paulo Henrique Mattos',
+                    name: 'Vitor Christoval',
                     status: 'client',
-                    telefone: '(16) 99653-8899',
-                    email: 'ph.mattos@gmail.com',
+                    telefone: '(41) 99151-1224',
+                    email: 'vitor.christovalgmail.com',
                     id: '11'
                 }
             ]
@@ -140,6 +140,9 @@ export class Index extends Component {
                                 filter_list
 </span>Filtrar</button>
                             <input type="text" class="form-control col-5" placeholder="Buscar por nome..." />
+                            <span class="material-icons input-icon-right">
+search
+</span>
                         </div>
                     </div>
                     <div className='col ml-3'>

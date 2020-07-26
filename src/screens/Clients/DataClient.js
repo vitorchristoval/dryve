@@ -33,7 +33,7 @@ export class DataClient extends Component {
                 <div className="form-group col-6 mt-3">
                     <a href='#' className='pt-5' data-testid='addPhone' onClick={() => this.change()}> + adicionar outro</a>
                 </div>
-                <div className={this.state.show ? 'form-group col-6' : 'd-none'} data-testid='result'>
+                <div className={this.state.show ? 'form-group col-6 phone-2' : 'd-none'} data-testid='result'>
                     <input type="text" className="form-control" placeholder="Telefone 2" />
                 </div><br/>
                 {/* ADICIOANR OUTRO TELEFONE MAP*/}

@@ -19,7 +19,7 @@ describe('Tests for Menu component', () => {
         fireEvent.click(menuNode)
         
         //verifica se o menu recebeu a classe "hover" ao passar o mouse em cima.
-        expect(resultNode.classList.contains('hover')).toBe(true)
+        expect(resultNode.classList.contains('phone-2')).toBe(true)
 
        
     })

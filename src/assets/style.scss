@@ -5,12 +5,25 @@
 @import 'dashboard';
 @import 'badge';
 @import 'client';
+@import 'forms';
 //font-family: 'Roboto', sans-serif;   -- font header
 body {
     background: $bg-color;
     font-weight: 400;
     font-size: .9rem;
     font-family: 'Inter', sans-serif;
+}
+.loading{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin:auto;
+    padding:15%;
+    i{
+        color: $primary-color;
+        font-size: 30px;
+
+    }
 }
 .container-fluid{
     margin-left: 6rem;

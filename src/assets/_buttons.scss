@@ -42,6 +42,7 @@
   background-color: $secondary-color;
   border-color: $secondary-color;
   font-weight: 500;
+  max-height: 36px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -54,9 +55,19 @@
 
 }
 
-
+.btn-link-secondary{
+  color: $secondary-color;
+  max-height: 36px;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0;
+}
 .btn-terciary{
   color: $secondary-color;
+  max-height: 38px;
   background-color: #fff !important;
   border:1px solid rgba(0, 0, 0, 0.12);
   font-weight: 500;
