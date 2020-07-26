@@ -40,11 +40,17 @@
 .btn-secondary{
   color: $white;
   background-color: $secondary-color;
+  border-color: $secondary-color;
   font-weight: 500;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   align-content: center;
+  &:hover{
+    color: $white;
+    background-color: $secondary-color;
+    opacity: 0.8;
+  }
 
 }
 
@@ -55,5 +61,8 @@
   border:1px solid rgba(0, 0, 0, 0.12);
   font-weight: 500;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 

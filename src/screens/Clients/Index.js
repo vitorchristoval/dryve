@@ -5,7 +5,6 @@ export class Index extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            menu: false,
             columsList: [
                 {
                     name: 'Nome',
@@ -20,7 +19,7 @@ export class Index extends Component {
                     selector: 'status',
                     cell: row =>
                         row.status == 'client' ? <span className="badge badge-primary stadium text-center">Cliente</span> :
-                            <span className="badge badge-secondary stadium">Lead</span>
+                            <span className="badge badge-lead stadium">Lead</span>
 
                 },
                 {
@@ -128,16 +127,6 @@ export class Index extends Component {
         }
     }
 
-    expandMenu = event => {
-        this.setState({ menu: true })
-
-    }
-    takeMenu = event => {
-        this.setState({ menu: false })
-    }
-    componentWillMount() {
-
-    }
 
     render() {
         return (
@@ -147,14 +136,16 @@ export class Index extends Component {
                     <div className='col-10'>
 
                         <div class="form-group row ml-1">
-                            <button className='btn btn-terciary mr-3'><img src='/img/ic-filter-list.png' />Filtrar</button>
+                            <button className='btn btn-terciary mr-3'><span class="material-icons">
+                                filter_list
+</span>Filtrar</button>
                             <input type="text" class="form-control col-5" placeholder="Buscar por nome..." />
                         </div>
                     </div>
                     <div className='col ml-3'>
-                        <button className='btn btn-secondary'><span class="material-icons">
-add
-</span>Adicionar</button>
+                        <button className='btn btn-secondary' onClick={() => window.location.href = '/clients/new'}>
+                            <span class="material-icons">add</span>Adicionar
+                        </button>
                     </div>
                 </div>
                 <div class="card mt-3">

@@ -8,11 +8,8 @@ export class Index extends Component {
         super(props);
     }
 
-
-
     render() {
         return (
-
             <div className='container-fluid  mt-4'>
                 <DataPreview />
                 <div className='row mt-4'>
@@ -20,16 +17,9 @@ export class Index extends Component {
                     <div className='col-4'>
                         <PurchaseIntentions />
                         <Prices/>
-                       
-
-
                     </div>
-
                 </div>
-
             </div>
-
-
         )
 
     }

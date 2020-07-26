@@ -1,0 +1,46 @@
+.new-client{
+    .card-header{
+        margin: 0;
+        padding: 0;
+        height: 48px;
+        padding-top: 7px;
+        background-color: $white;
+        color: rgba(0, 0, 0, 0.38)        ;
+        .row{
+            margin: 0;
+            padding: 0;
+        }
+        .col{
+            margin-bottom: -13px;
+            padding:5px;
+        }
+        .active{
+            border-bottom: 1.5px solid $secondary-color;
+            color: $secondary-color;
+           // margin-bottom: -15px;
+        }
+        h5{
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+       
+    }
+    .form-control{
+        height: 56px;
+        opacity: 0.7;
+    }
+    .disabled{
+        opacity: 0.3;
+    }
+    .card-footer{
+        padding: 15px;
+        background-color: #f3f7ff;
+        border: none ;
+        border-top: 1px solid rgba(0, 0, 0, 0.12)
+
+        ;
+    }
+}
