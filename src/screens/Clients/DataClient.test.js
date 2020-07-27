@@ -4,21 +4,20 @@ import { fireEvent, render, waitForElement, logDOM } from '@testing-library/reac
 
 import DataClient from './DataClient'
 
-describe('Tests for Menu component', () => {
-    it('Should menu expand on hover', async () => {
+describe('Tests for DataClient component', () => {
+    it('Display another phone field when clicked', async () => {
         //renderizar o componente
         const { getByTestId, getByText } = render(<DataClient />)
 
-        const menuNode = await waitForElement(
+        const phoneNode = await waitForElement(
             () => getByTestId('addPhone')
         )
         const resultNode = await waitForElement(
             () => getByTestId('result')
         )
 
-        fireEvent.click(menuNode)
-        
-        //verifica se o menu recebeu a classe "hover" ao passar o mouse em cima.
+        fireEvent.click(phoneNode)
+      
         expect(resultNode.classList.contains('phone-2')).toBe(true)
 
        

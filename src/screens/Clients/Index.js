@@ -135,23 +135,23 @@ export class Index extends Component {
                 <div className='row'>
                     <div className='col-10'>
 
-                        <div class="form-group row ml-1">
-                            <button className='btn btn-terciary mr-3'><span class="material-icons">
+                        <div className="form-group row ml-1">
+                            <button className='btn btn-terciary mr-3'><span className="material-icons">
                                 filter_list
 </span>Filtrar</button>
-                            <input type="text" class="form-control col-5" placeholder="Buscar por nome..." />
-                            <span class="material-icons input-icon-right">
+                            <input type="text" className="form-control col-5" placeholder="Buscar por nome..." />
+                            <span className="material-icons input-icon-right">
 search
 </span>
                         </div>
                     </div>
                     <div className='col ml-3'>
                         <button className='btn btn-secondary' onClick={() => window.location.href = '/clients/new'}>
-                            <span class="material-icons">add</span>Adicionar
+                            <span className="material-icons">add</span>Adicionar
                         </button>
                     </div>
                 </div>
-                <div class="card mt-3">
+                <div className="card mt-3">
                     <List data={this.state.data} colums={this.state.columsList} />
                 </div>
             </div>

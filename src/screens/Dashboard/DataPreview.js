@@ -11,8 +11,8 @@ export class DataPreview extends Component {
 
             <div className='row'>
                 <div className='col'>
-                    <div class="card ">
-                        <div class="card-body row dash-view">
+                    <div className="card ">
+                        <div className="card-body row dash-view">
                             <div className='col-9'>
                                 <h6>AVALIAÇÕES HOJE</h6>
                                 <h3>29</h3>
@@ -24,8 +24,8 @@ export class DataPreview extends Component {
                     </div>
                 </div>
                 <div className='col'>
-                    <div class="card">
-                        <div class="card-body row dash-view">
+                    <div className="card">
+                        <div className="card-body row dash-view">
                             <div className='col-9'>
                                 <h6>CARROS PUBLICADOS</h6>
                                 <h3>397</h3>
@@ -37,8 +37,8 @@ export class DataPreview extends Component {
                     </div>
                 </div>
                 <div className='col'>
-                    <div class="card">
-                        <div class="card-body row dash-view">
+                    <div className="card">
+                        <div className="card-body row dash-view">
                             <div className='col-9'>
                                 <h6>TICKET MÉDIO DO ESTOQUE</h6>
                                 <h3>R$ 42.567</h3>

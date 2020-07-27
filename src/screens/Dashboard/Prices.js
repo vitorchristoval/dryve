@@ -33,8 +33,8 @@ export class Prices extends Component {
     }
     render() {
         return (
-            <div class="card mt-3 price">
-                <div class="card-body p-0">
+            <div className="card mt-3 price">
+                <div className="card-body p-0">
                     <div className='row p-3'>
                         <div className='col-12'>
                             <h3>Preços - Dryve x KBB</h3>

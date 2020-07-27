@@ -44,8 +44,8 @@ export class PurchaseIntentions extends Component {
     }
     render() {
         return (
-            <div class="card purchase">
-                <div class="card-body p-0">
+            <div className="card purchase">
+                <div className="card-body p-0">
                     <div className='row p-3'>
                         <div className='col-12'>
                             <h3>Top intenções de compra</h3>

@@ -27,12 +27,12 @@ export class LatestRatings extends Component {
     render() {
         return (
             <div className='col-8'>
-                <div class="card ">
+                <div className="card ">
                     <div className='latest-ratings'>
-                        <div class="card-body p-0">
+                        <div className="card-body p-0">
                             {this.state.loading ?
-                                <div class='loading'>
-                                    <i class="fas fa-circle-notch fa-spin"></i>
+                                <div className='loading'>
+                                    <i className="fas fa-circle-notch fa-spin"></i>
                                 </div>
                                 :
                                 <>
@@ -41,18 +41,18 @@ export class LatestRatings extends Component {
                                         <div className='col-10'>
                                             <h3>Últimas avaliações</h3>
                                         </div>
-                                        <div className='col'><div class="dropdown">
-                                            <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div className='col'><div className="dropdown">
+                                            <a className="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Hoje
   </a>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#">Últimos 7 dias</a>
-                                                <a class="dropdown-item" href="#">Últimos 30 dias</a>
-                                                <a class="dropdown-item" href="#">Últimos 60 dias</a>
+                                            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a className="dropdown-item" href="#">Últimos 7 dias</a>
+                                                <a className="dropdown-item" href="#">Últimos 30 dias</a>
+                                                <a className="dropdown-item" href="#">Últimos 60 dias</a>
                                             </div>
                                         </div></div>
                                     </div>
-                                    <table class="table">
+                                    <table className="table">
                                         <thead>
                                             <tr>
                                                 <th scope="col">Dados do veículo</th>
@@ -83,10 +83,10 @@ export class LatestRatings extends Component {
                                                             <h5>ANÚNCIO</h5>
                                                             <h4>R$ {item.ad_selling_price.toLocaleString('pt-br', { minimumFractionDigits: 2 })}</h4>
                                                             <h5>MÍNIMO ACEITO</h5>
-                                                            <h4>R$ {item.ad_selling_price.toLocaleString('pt-br', { minimumFractionDigits: 2 })}</h4>
+                                                            <h4 className='minValue'>R$ {item.ad_selling_price.toLocaleString('pt-br', { minimumFractionDigits: 2 })}</h4>
                                                         </div>
                                                     </td>
-                                                    <td className='text-center pt-4'><span class="badge badge-pill badge-info">Aguardando precificação</span>
+                                                    <td className='text-center pt-4'><span className="badge badge-pill badge-info">Aguardando precificação</span>
                                                         <p className='mt-3'>{this.state.data.toLocaleDateString()} às {this.state.data.toLocaleTimeString()}</p></td>
                                                 </tr>
                                             ))}
