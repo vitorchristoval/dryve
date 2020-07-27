@@ -15,7 +15,6 @@ const Routes = () => (
       <Route exact path='/clients' component={Clients} />
       <Route exact path='/clients/new' component={NewClient} />
       <Route exact path='*' component={() => <h1>Erro</h1>} />
-
     </Switch >
   </BrowserRouter>
 );
